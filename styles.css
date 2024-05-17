@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  max-width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+
+span {
+  color: rgb(145, 145, 203);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+main {
+  max-width: 85vw;
+  margin: 1.5rem auto;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 450px) {
+  .hero {
+    flex-direction: column;
+  }
+}
+
+.hero-text {
+  flex: 1;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 110%;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.box {
+  flex: 1;
+  width: 50rem;
+  height: 30rem;
+  background-color: rgb(192, 192, 240);
+}
+
+@media (max-width: 450px) {
+  .box {
+    height: 15rem;
+    width: 100%;
+    flex: none;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2.5rem 0;
+}
+
+@media (max-width: 450px) {
+  h2 {
+    font-size: 1.85rem;
+  }
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+small {
+  margin-top: 0.75rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.vision-note,
+.mission-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 450px) {
+  .vision-note,
+  .mission-note {
+    flex-direction: column;
+  }
+
+  .mission-note {
+    flex-direction: column-reverse;
+  }
+}
+
+.para {
+  flex: 1;
+}
+
+footer {
+  max-width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+@media (max-width: 450px) {
+  footer {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+footer small {
+  font-weight: bold;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+footer ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.blog {
+  margin-bottom: 2rem;
+}
